@@ -1,0 +1,69 @@
+.title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 60pt;
+}
+
+.underline{    
+    background: linear-gradient(to left, #66351c, #66351c 100%);
+    background-position: 0 100%;
+    border-radius: 20px;
+    background-size: 100% 4px;
+    background-repeat: repeat-x;
+  }
+
+.card{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 45%;
+    min-width: 400px;
+}
+
+.card-title{
+    padding-top: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32pt;
+}
+
+.card-body{
+    padding: 20px;
+    text-align: left;
+    font-size: 12pt;
+}
+
+.flexbox-horz{
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flexbox-vert{
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 46%;
+    gap: 40px;
+}
+
+button.b1{
+    height: 40px;
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    border: 1px solid #66351c;
+    background-color: #66351c;
+    color: white;
+}
+
+button.b1:hover{
+    height: 40px;
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    border: 1px solid #381d10;
+    background-color: #381d10;
+    color: white;
+}
